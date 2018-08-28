@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8" />
+ <title>New Страница</title>
+ <!-- подключаем библиотеку онлайн через Google CDN -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+ <!--
+ <form action="sports.php" method="POST">
+  <input type="text" name="sports" />
+  <br />
+  <br />
+  исравляем type="submit" на  type="button"
+  <button type="button">OK</button>
+ </form>
+ <p></p>
+ <br />
+ <label></label>
+<script>
+ $(document).ready(function () {
+  $('button').click(function() {
+
+   var strInForm = $('form').serialize();
+
+   $.ajax({
+   url: "/sports.php",
+   cache: false,
+   type: "POST",
+   dataType: 'json',
+   data: strInForm,
+   success: function (str) {
+    $('p').text('Yes!');
+    //обращаемся к массиву по индексу
+    $('label').text(str[0]);
+   },
+   error: function() {
+    $('p').text('Error!');
+   }
+  });
+  });
+ });
+</script>
+-->
+<body>
+
+
+<div id = edited  style="  margin-left: 200px; margin-right:200px; text-align: center;">
+    <table  border="1" style="   display: inline-block; ">
+   <th rowspan="10" style = "width: 20px !important;"> <span style="writing-mode: vertical-lr;">Понеділок</th></span> 
+    <tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1</th>
+    <td>Ячейка 1</th>
+   </tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </table>
+
+
+  <table border="1" style="margin-left:   20px;  display: inline-block;   ">
+   <th rowspan="10" style = "width: 20px !important;"> <span style="writing-mode: vertical-lr;">Вівторок</th></span> 
+    <tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1</th>
+    <td>Ячейка 1</th>
+   </tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </table>
+
+  <table border="1" style=" margin-top:20px; margin-left: 20px; display: inline-block;  ">
+   <th rowspan="10" style = "width: 20px !important;"> <span style="writing-mode: vertical-lr;">Середа</th></span> 
+    <tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1</th>
+    <td>Ячейка 1</th>
+   </tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+</div>
+
+  </table>
+    <table border="1" style="  display: inline-block;   ">
+   <th rowspan="10" style = "width: 20px !important;"> <span style="writing-mode: vertical-lr;">Четвер</th></span> 
+    <tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1</th>
+    <td>Ячейка 1</th>
+   </tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </table>
+    <table border="1" style="margin-top:20px; margin-left: 20px; display: inline-block;  ">
+   <th rowspan="10" style = "width: 20px !important;"> <span style="writing-mode: vertical-lr;">Пятниця</th></span> 
+    <tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1</th>
+    <td>Ячейка 1</th>
+   </tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </table>
+  <table border="1" style="margin-left:   20px; display: inline-block;  ">
+   <th rowspan="10" style = "width: 20px !important;"> <span style="writing-mode: vertical-lr; " >Субота</th></span> 
+    <tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1</th>
+    <td>Ячейка 1</th>
+   </tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </table>
+</div>
+<input type="button" value="Сохранить" id="x" class="button5" onclick="send()" value="Отправить">
+<script>
+  
+
+
+
+  $(function()  {
+  $('td').click(function()  {
+    var val = $(this).html(); //получаем значение ячейки
+    //формируем код текстового поля
+    var code = '<input type="text" id="edit" value="'+val+'"';
+    //удаляем содержимое ячейки, вставляем в нее сформированное поле
+    $(this).empty().append(code);
+    //устанавливаем фокус на свеженарисованное поле
+    $('#edit').focus();
+    $('#edit').blur(function()  { //устанавливаем обработчик
+      var val = $(this).val();  //получаем то, что в поле находится
+      //находим ячейку, опустошаем, вставляем значение из поля
+      $(this).parent().empty().html(val);
+    });
+  });
+});
+
+var editedTd = null;
+$(function()  {
+  $('td').click(function(e) {
+    //ловим элемент, по которому кликнули
+    var t = e.target || e.srcElement;
+    //получаем название тега
+    var elm_name = t.tagName.toLowerCase();
+    //если это инпут - ничего не делаем
+    if(elm_name == 'input') {return false;}
+    var val = $(this).html();
+    var code = '<input type="text" id="edit" value="'+val+'" />';
+    $(this).empty().append(code);
+    $('#edit').focus();
+    $('#edit').blur(function()  {
+      var val = $(this).val();
+      $(this).parent().empty().html(val);
+    });
+  });
+});
+
+
+  $(window).keydown(function(event){
+  //ловим событие нажатия клавиши
+  if(event.keyCode == 13) { //если это Enter
+    $('#edit').blur();  //снимаем фокус с поля ввода
+  }
+});
+
+
+
+function send()
+{
+var data = $(this).html();
+$.post('/sports.php',
+ {'data':data}, 
+ function(data) {
+  alert("fgbvfdgxvc"+ data);
+  $(this).parent().empty().html(data);
+
+});
+
+}
+
+</script>
+</body>
+</html>

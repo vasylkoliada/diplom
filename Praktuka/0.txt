@@ -1,0 +1,250 @@
+
+
+
+
+
+
+<div style="  margin-left: 200px; margin-right:200px; text-align: center;">
+    <table border="1" style="   display: inline-block; ">
+   <tbody><tr><th rowspan="10" style="width: 20px !important;"> <span style="writing-mode: vertical-lr;">Понеділок</span></th> 
+    </tr><tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейdcка 1
+    </td><td>Ячейка 1111111</td></tr>
+   <tr>
+    <td>Ячейа 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейfкdvvа 3</td>
+    <td>Ячейbgка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейvdка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </tbody></table>
+
+
+  <table border="1" style="margin-left:   20px;  display: inline-block;   ">
+   <tbody><tr><th rowspan="10" style="width: 20px !important;"> <span style="writing-mode: vertical-lr;">Вівторок</span></th> 
+    </tr><tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1
+    </td><td>Ячейка 1
+   </td></tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </tbody></table>
+
+  <table border="1" style=" margin-top:20px; margin-left: 20px; display: inline-block;  ">
+   <tbody><tr><th rowspan="10" style="width: 20px !important;"> <span style="writing-mode: vertical-lr;">Середа</span></th> 
+    </tr><tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1
+    </td><td>Ячейка 1
+   </td></tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+
+  </tbody></table>
+    <table border="1" style="  display: inline-block;   ">
+   <tbody><tr><th rowspan="10" style="width: 20px !important;"> <span style="writing-mode: vertical-lr;">Четвер</span></th> 
+    </tr><tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1
+    </td><td>Ячейка 1
+   </td></tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </tbody></table>
+    <table border="1" style="margin-top:20px; margin-left: 20px; display: inline-block;  ">
+   <tbody><tr><th rowspan="10" style="width: 20px !important;"> <span style="writing-mode: vertical-lr;">Пятниця</span></th> 
+    </tr><tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1
+    </td><td>Ячейка 1
+   </td></tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </tbody></table>
+  <table border="1" style="margin-left:   20px; display: inline-block;  ">
+   <tbody><tr><th rowspan="10" style="width: 20px !important;"> <span style="writing-mode: vertical-lr; ">Субота</span></th> 
+    </tr><tr>
+    <th>Урок</th>
+    <th>Вчитель</th>
+   </tr>
+   <tr>
+    <td>Ячейка 1
+    </td><td>Ячейка 111</td></tr>
+   <tr>
+    <td>Ячейка 2</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 3</td>
+  </tr>
+  <tr>
+    <td>Ячейка 4</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Ячейка 5</td>
+    <td>Ячейка 5</td>
+  </tr>
+  <tr>
+    <td>Ячейка 6</td>
+    <td>Ячейка 6</td>
+  </tr>
+  <tr>
+    <td>Ячейка 7</td>
+    <td>Ячейка 7</td>
+  </tr>
+  <tr>
+    <td>Ячейка 8</td>
+    <td>Ячейка 8</td>
+  </tr>
+
+  </tbody></table>
+  </div>

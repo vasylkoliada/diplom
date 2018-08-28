@@ -1,0 +1,117 @@
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>SlickGrid - редактируемая таблица на jQuery</title>
+		<link rel="stylesheet" href="examples.css" type="text/css" media="screen" charset="utf-8" />
+		<link href="http://plugindetector.com/demo/_lib/demo.css" rel="stylesheet" />		<style>
+		.cell-title {
+			font-weight: bold;
+		}
+
+		body {
+			background:white;
+		}
+
+		.cell-effort-driven {
+			text-align: center;
+		}
+	</style>
+	</head>
+	<body>
+	<div class="wrapper">
+		<div class="inner">
+       
+            <div style="width:600px;">
+                <div id="myGrid" style="width:100%;height:500px;"></div>
+            </div>
+
+		<div style="margin-top:10px;">
+		 <button onclick="grid.setOptions({autoEdit:true})">Включить авто-редактирование</button>
+		 &nbsp;&nbsp;&nbsp;&nbsp;
+		 <button onclick="grid.setOptions({autoEdit:false})">Выключить авто-редактирование</button>
+		</div>
+
+        
+		<script type="text/javascript">
+			
+			if (!("console" in window) || !("firebug" in console))
+			{
+			    var names = ["log", "debug", "info", "warn", "error", "assert", "dir", "dirxml",
+			    "group", "groupEnd", "time", "timeEnd", "count", "trace", "profile", "profileEnd"];
+
+			    window.console = {};
+			    for (var i = 0; i < names.length; ++i)
+				   window.console[names[i]] = function() {}
+			}
+		</script>
+		
+			<script type="text/javascript" src="/demo/_lib/jquery.latest.min.js"></script>
+	<link href="http://plugindetector.com/demo/_lib/demo.css" rel="stylesheet" />
+	
+			
+		<script src="scripts.js" type="text/javascript"></script>
+		
+		<script>
+		function requiredFieldValidator(value) {
+			if (value == null || value == undefined || !value.length)
+				return {valid:false, msg:"This is a required field"};
+			else
+				return {valid:true, msg:null};
+		}
+
+		var grid;
+		var data = [];
+		var columns = [
+			{id:"title", name:"Заголовок", field:"title", width:120, cssClass:"cell-title", editor:TextCellEditor, validator:requiredFieldValidator},
+            {id:"desc", name:"Описание", field:"description", width:100, editor:LongTextCellEditor},
+            {id:"duration", name:"Время", field:"duration", editor:TextCellEditor},
+			{id:"%", name:"% выполнения", field:"percentComplete", width:80, resizable:false, formatter:GraphicalPercentCompleteCellFormatter, editor:PercentCompleteCellEditor},
+			{id:"start", name:"Начало", field:"start", minWidth:60, editor:DateCellEditor},
+			//{id:"finish", name:"Finish", field:"finish", minWidth:60, editor:DateCellEditor},
+			{id:"effort-driven", name:"Effort Driven", width:80, minWidth:20, maxWidth:80, cssClass:"cell-effort-driven", field:"effortDriven", formatter:BoolCellFormatter, editor:YesNoCheckboxCellEditor}
+		];
+		var options = {
+			editable: true,
+			enableAddRow: true,
+			enableCellNavigation: true,
+			asyncEditorLoading: false,
+            autoEdit: false
+		};
+
+		$(function()
+		{
+			for (var i=0; i<17; i++) {
+				var d = (data[i] = {});
+
+				d["title"] = "Задача " + i;
+				d["description"] = "Это пример текста, который может быть отредактирован.\n\nЗдесь может быть много  текста";
+				d["duration"] = "5 дней";
+				d["percentComplete"] = Math.round(Math.random() * 100);
+				d["start"] = "01/01/2012";
+				//d["finish"] = "01/05/2012";
+				d["effortDriven"] = (i % 5 == 0);
+			}
+
+			grid = new Slick.Grid("#myGrid", data, columns, options);
+
+            //grid.registerPlugin(new Slick.CellRangeSelector());
+
+            grid.setSelectionModel(new Slick.CellSelectionModel());
+
+            grid.onAddNewRow.subscribe(function(e, args) {
+                var item = args.item;
+                var column = args.column;
+                grid.invalidateRow(data.length);
+                data.push(item);
+                grid.updateRowCount();
+                grid.render();
+            });
+		})
+		</script>
+		
+		</div>
+			</div>
+		
+				</body>
+</html>
