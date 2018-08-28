@@ -1,0 +1,322 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}    
+			body {
+			  right:  0;
+			  margin: 0;
+			 
+			  position: relative;
+			}     
+	    #dfg{
+				margin-right: 100px;
+				margin-left: 100px;
+		}
+		#menu{
+			
+           width: 100%;
+           background-color:  #eee;
+           display: table;
+		}
+		.menu1{
+		top: 0px;
+              
+			position: fixed;
+			   z-index: 1000;
+		}
+		#menu li{
+			display: block;
+			float: left;
+			position: relative;
+		}
+		#menu li a{
+			display: table;
+			padding: 0 20px;
+			height: 60px;
+			text-align: center;
+			font-family: sans-serif;
+			line-height: 59px;
+			color: #585858;
+			border-right: 1px solid #555;
+			text-decoration: none;
+			transition: .5s;
+		}
+		.sum-menu{
+			visibility: hidden;
+			opacity: 0;
+			position: absolute;
+			z-index: -1;
+			transition: .3s;
+		}
+		.sub-menu{
+			visibility: hidden;
+			opacity: 0;
+			position: absolute;
+			z-index: -1;
+			transition: .3s;
+		}
+		#menu .sum-menu li{
+				float: none;		
+		}
+		#menu .sum-menu li a{
+				width: auto;
+				min-width: 100%;
+				padding: 0 11px;
+				white-space: nowrap;
+				text-align: left;
+				box-shadow: none;
+				border: none;
+				border-bottom: 1px solid #ddd;		
+		}
+			#menu .sub-menu li a{
+				width: auto;
+				min-width: 100%;
+				padding: 0 11px;
+				white-space: nowrap;
+				text-align: center;
+				box-shadow: none;
+				border: none;
+				border-bottom: 1px solid #ddd;		
+		}
+		#menu li:hover a{
+			background: #585858;
+			box-shadow: 0 0 5px rgba(0, 0, 0, .3) insert;
+		}
+
+		#menu li:hover .sum-menu a{
+			background: #eee;
+			color: #666;
+			height: auto;
+			line-height: 40px;
+		}	
+     #menu li:hover .sub-menu a{
+			background: #eee;
+			color: #666;
+			height: auto;
+			line-height: 40px;
+		}	
+		#menu li:hover .sub-menu a{
+			background: #eee;
+			color: #666;
+			
+		}
+	
+		#menu li:hover .sum-menu a:hover{
+			color: #eee;
+		}
+
+		#menu li:hover .sub-menu a:hover{
+			color: #eee;
+		}
+		
+
+		#menu li:hover + .sum-menu, .sum-menu:hover{
+			display: block;
+		}
+ 		#menu li:hover > ul{
+ 			visibility: visible;
+ 			opacity: 1;
+ 			z-index: 1;
+ 		}
+		
+				.gallery img{
+				margin:5px; /* внешние отступы картинок */
+				border:3px solid #fff; /* рамка картинок */
+				}
+				a.photo:hover img{
+				border:3px solid #034F80; /* изменение цвета рамки при наведении на картинку */
+				}
+      .firsttop{ 
+      	background-color: red;
+      	margin-top: 0px;
+      		padding: 10px;
+ 
+      	text-align: right;
+      }
+
+      .firstt{ 
+      	background-color:red;
+      	margin-top: 0px;
+      		padding: 10px;
+ 
+      	text-align: right;
+      }
+      .tty{
+        font-variant: small-caps;
+      	text-align: center;
+			font-family: sans-serif;
+      	color: white;
+    	background-color: red;
+    	padding: 10px;
+   
+        
+      }
+
+      .ffa{
+      	 	margin-bottom: 0px !important;
+     
+
+      }
+      	
+			.flex-container {
+			  display: flex;
+			  		padding-bottom: 25px;
+			}
+		
+				.flex-container > div {
+				  background-color: #eee;
+				  
+				  font-size: 16px;
+				}
+				.cl1{ 
+             
+					flex-basis: 60%;
+					margin-right: 10px;
+
+				}
+				.cl2{
+					flex-basis: 30%;
+				 margin-right: 10px;
+				 padding:0 10px;
+				}
+				.cl3{
+					padding: 15px 5px;
+					flex-basis: 10%;
+				}
+				.ez{
+					text-align: center;
+					font-family: sans-serif;
+					line-height: 49px;
+				}
+				.hr{
+					color: #C5007F;
+
+					padding-left: 50%;
+				}
+				.fotd{
+					margin-left: 150px;
+					padding-top:  20px;
+
+
+				}
+				* {
+				  -webkit-box-sizing: border-box;
+				     -moz-box-sizing: border-box;
+				      -ms-box-sizing: border-box;
+				          box-sizing: border-box;
+				}
+				.bw {
+				  -webkit-transition: all 1s ease;
+				     -moz-transition: all 1s ease;
+				       -o-transition: all 1s ease;
+				      -ms-transition: all 1s ease;
+				          transition: all 1s ease;
+				}
+				 
+				.bw:hover {
+				  -webkit-filter: grayscale(100%);
+				  filter: grayscale(100%);
+				}
+
+				.bw1:hover .bw {
+				  -webkit-filter: grayscale(100%);
+				  filter: grayscale(100%);
+				}
+				.bw2:hover .bw {
+				  -webkit-filter: grayscale(100%);
+				  filter: grayscale(100%);
+				}
+				.bw3:hover .bw {
+				  -webkit-filter: grayscale(100%);
+				  filter: grayscale(100%);
+				}
+				  .mme{
+
+        top: 0px;
+            right:  -285px; /* прячем меню */
+            height: 100%;
+            margin-top: 0px;
+            position: fixed;
+            width: 285px;
+      }
+            .mme ul {
+               overflow: scroll;
+        border-top: 1px solid #555;
+        list-style: none;
+        margin: 0;
+        padding-bottom: 60px;
+      }
+       
+      .mme li {
+        background: #2E2E2E;
+        border-bottom: 1px solid #555;
+       text-align: center;
+		font-family: sans-serif;
+        line-height: 45px;
+        padding-bottom: 3px;
+        padding-left: 20px;
+        padding-top: 3px;
+      }
+       
+      .mme li:hover {
+        cursor: pointer;
+        background-color: #555;
+        }
+       
+      .mme a {
+        color: #A4A4A4;
+        font-size: 15px;
+    
+        font-weight: bold;
+        text-decoration: none;
+			transition: .5s;
+      }
+       
+      .icon-close {
+        cursor: pointer;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+      }
+       
+      .icon-menu {
+        color: #fff;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+     
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+ 
+      .icon-mme img {
+        margin-right: 5px;
+      }
+  .hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: уменьшаем размер до 0.8*/
+-moz-transform:scale(0.8); /*Mozilla: масштабирование*/
+-o-transform:scale(0.8); /*Opera: масштабирование*/
+-webkit-transition-duration: 0.5s; /*Webkit: длительность анимации*/
+-moz-transition-duration: 0.5s; /*Mozilla: длительность анимации*/
+-o-transition-duration: 0.5s; /*Opera: длительность анимации*/
+opacity: 0.7; /*Начальная прозрачность изображений*/
+margin: 0 10px 5px 0; /*Интервалы между изображениями*/
+}
+.hovergallery img:hover{
+-webkit-transform:scale(1.5); /*Webkit: увеличиваем размер до 1.2x*/
+-moz-transform:scale(1.5); /*Mozilla: масштабирование*/
+-o-transform:scale(1.5); /*Opera: масштабирование*/
+box-shadow:0px 0px 30px gray; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+-webkit-box-shadow:0px 0px 30px gray; /*Webkit: тени*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla: тени*/
+opacity: 1;}
+.imgg {
+    width: 600px;
+    height: 400px;
+    background: url(https://goo.gl/ypQyGs) no-repeat center/cover;
+}
+     
+     
