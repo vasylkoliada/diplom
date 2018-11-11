@@ -57,6 +57,11 @@ $(document).ready(main);</script>
                      <a href="#">Гуртожиток 5</a>
                      <a href="#">Гуртожиток 6</a>
                      </div>
+
+
+
+
+                     
                      <div style="  display: table-cell;  ">
                      <a href="#">Гуртожиток 7</a>
                      <a href="#">Гуртожиток 8</a>
